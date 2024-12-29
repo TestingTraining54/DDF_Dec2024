@@ -1,0 +1,22 @@
+INFO    2024-12-29 17:26:59,970 [main] baseTest.BaseTest  - Test case execution started
+INFO    2024-12-29 17:26:59,972 [main] baseTest.BaseTest  - config properties file has been loaded
+INFO    2024-12-29 17:26:59,972 [main] baseTest.BaseTest  - or properties file has been loaded
+INFO    2024-12-29 17:27:03,395 [main] baseTest.BaseTest  - Chrome browser has been launched
+INFO    2024-12-29 17:27:03,483 [main] baseTest.BaseTest  - Browser is maximized
+INFO    2024-12-29 17:27:05,412 [main] baseTest.BaseTest  - Entered value into fields with keyword as: emailTxtbox_ID with value as: username1
+INFO    2024-12-29 17:27:05,701 [main] baseTest.BaseTest  - Entered value into fields with keyword as: passwordTxtbox_NAME with value as: password1
+INFO    2024-12-29 17:27:05,925 [main] baseTest.BaseTest  - Clicked on button with keyword as : loginBtn_XPATH
+INFO    2024-12-29 17:27:08,157 [main] baseTest.BaseTest  - Chrome browser has been launched
+INFO    2024-12-29 17:27:08,298 [main] baseTest.BaseTest  - Browser is maximized
+INFO    2024-12-29 17:27:10,019 [main] baseTest.BaseTest  - Entered value into fields with keyword as: emailTxtbox_ID with value as: username2
+INFO    2024-12-29 17:27:10,234 [main] baseTest.BaseTest  - Entered value into fields with keyword as: passwordTxtbox_NAME with value as: password2
+INFO    2024-12-29 17:27:10,393 [main] baseTest.BaseTest  - Clicked on button with keyword as : loginBtn_XPATH
+INFO    2024-12-29 17:27:12,209 [main] baseTest.BaseTest  - Chrome browser has been launched
+INFO    2024-12-29 17:27:12,387 [main] baseTest.BaseTest  - Browser is maximized
+INFO    2024-12-29 17:27:14,052 [main] baseTest.BaseTest  - Entered value into fields with keyword as: emailTxtbox_ID with value as: username3
+INFO    2024-12-29 17:27:14,303 [main] baseTest.BaseTest  - Entered value into fields with keyword as: passwordTxtbox_NAME with value as: password3
+INFO    2024-12-29 17:27:14,491 [main] baseTest.BaseTest  - Clicked on button with keyword as : loginBtn_XPATH
+INFO    2024-12-29 17:27:17,692 [main] baseTest.BaseTest  - Chrome browser has been launched
+INFO    2024-12-29 17:27:17,859 [main] baseTest.BaseTest  - Browser is maximized
+INFO    2024-12-29 17:27:21,915 [main] baseTest.BaseTest  - Chrome browser has been launched
+INFO    2024-12-29 17:27:22,065 [main] baseTest.BaseTest  - Browser is maximized
