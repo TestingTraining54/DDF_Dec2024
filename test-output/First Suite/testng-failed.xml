@@ -4,16 +4,14 @@
   <listeners>
     <listener class-name="extentlisteners.ExtentListeners"/>
   </listeners>
-  <test thread-count="5" name="Fb Reg Test(failed)">
+  <test thread-count="5" name="Bank Manager Login Test(failed)">
     <classes>
-      <class name="testcases.UserRegistractionTest">
+      <class name="testcases.BankManagerLoginTest">
         <methods>
-          <include name="launchBrowser"/>
+          <include name="doBankManagerLogin"/>
           <include name="setUp"/>
-          <include name="doUserReg"/>
-          <include name="tearDown"/>
         </methods>
-      </class> <!-- testcases.UserRegistractionTest -->
+      </class> <!-- testcases.BankManagerLoginTest -->
     </classes>
-  </test> <!-- Fb Reg Test(failed) -->
+  </test> <!-- Bank Manager Login Test(failed) -->
 </suite> <!-- Failed suite [First Suite] -->

@@ -14,9 +14,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import extentlisteners.ExtentListeners;
@@ -82,10 +81,7 @@ public class BaseTest {
 			e.printStackTrace();
 		}
 
-	}
 
-	@BeforeMethod
-	public void launchBrowser() {
 		if (config.getProperty("browser").equalsIgnoreCase("chrome")) {
 			driver = new ChromeDriver();
 			log.info("Chrome browser has been launched");
@@ -106,11 +102,44 @@ public class BaseTest {
 		driver.get(config.getProperty("testsiteurl"));
 	}
 
-	@AfterMethod
-	public void tearDown() {
-		driver.close();
-	}
+	/*
+	 * @AfterSuite public void tearDown() { driver.quit(); }
+	 */
+	public static boolean isElementPresent(String keyword) {
+		// type("passwordTxtbox_NAME","testing123");
+		WebElement ele = null;
+		try {
+			if (keyword.endsWith("_ID")) {
+				ele = driver.findElement(By.id(or.getProperty(keyword)));
+			}
 
+			else if (keyword.endsWith("_NAME")) {
+				ele = driver.findElement(By.name(or.getProperty(keyword)));
+			}
+
+			else if (keyword.endsWith("_XPATH")) {
+				ele = driver.findElement(By.xpath(or.getProperty(keyword)));
+			}
+
+			else if (keyword.endsWith("_CSS")) {
+				ele = driver.findElement(By.cssSelector(or.getProperty(keyword)));
+			}
+
+			else if (keyword.endsWith("_CLASS")) {
+				ele = driver.findElement(By.className(or.getProperty(keyword)));
+			}
+		} catch (Exception e) {
+			log.error(e.getMessage());
+			log.error("Element is not present");
+			return false;
+		}
+
+	
+		log.info("Element is present with the keyword as: " + keyword);
+		ExtentListeners.test.info("Element is present with the keyword as:" + keyword);
+		return true;
+	}
+	
 	public static void type(String keyword, String value) {
 		// type("passwordTxtbox_NAME","testing123");
 		WebElement ele = null;
@@ -172,6 +201,40 @@ public class BaseTest {
 		ele.click();
 		log.info("Clicked on button with keyword as : " + keyword);
 		ExtentListeners.test.info("Clicked on button with keyword as : " + keyword);
+	}
+	
+	public static void select(String keyword,String value) {
+		WebElement ele = null;
+		Select s;
+		// click("loginBtn_XPATH");
+		try {
+			if (keyword.endsWith("_ID")) {
+				ele = driver.findElement(By.id(or.getProperty(keyword)));
+				
+			}
+
+			else if (keyword.endsWith("_NAME")) {
+				ele = driver.findElement(By.name(or.getProperty(keyword)));
+			}
+
+			else if (keyword.endsWith("_XPATH")) {
+				ele = driver.findElement(By.xpath(or.getProperty(keyword)));
+			}
+
+			else if (keyword.endsWith("_CSS")) {
+				ele = driver.findElement(By.cssSelector(or.getProperty(keyword)));
+			}
+
+			else if (keyword.endsWith("_CLASS")) {
+				ele = driver.findElement(By.className(or.getProperty(keyword)));
+			}
+		} catch (Exception e) {
+			log.error(e.getMessage());
+		}
+		s = new Select(ele);
+		s.selectByVisibleText(value);
+		log.info("Select the value from drop down with keyword as : " + keyword + " and value as: " + value);
+		ExtentListeners.test.info("Select the value from drop down with keyword as : " + keyword + " and value as: " + value);
 	}
 
 }

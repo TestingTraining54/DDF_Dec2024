@@ -1,22 +1,34 @@
-INFO    2024-12-29 17:26:59,970 [main] baseTest.BaseTest  - Test case execution started
-INFO    2024-12-29 17:26:59,972 [main] baseTest.BaseTest  - config properties file has been loaded
-INFO    2024-12-29 17:26:59,972 [main] baseTest.BaseTest  - or properties file has been loaded
-INFO    2024-12-29 17:27:03,395 [main] baseTest.BaseTest  - Chrome browser has been launched
-INFO    2024-12-29 17:27:03,483 [main] baseTest.BaseTest  - Browser is maximized
-INFO    2024-12-29 17:27:05,412 [main] baseTest.BaseTest  - Entered value into fields with keyword as: emailTxtbox_ID with value as: username1
-INFO    2024-12-29 17:27:05,701 [main] baseTest.BaseTest  - Entered value into fields with keyword as: passwordTxtbox_NAME with value as: password1
-INFO    2024-12-29 17:27:05,925 [main] baseTest.BaseTest  - Clicked on button with keyword as : loginBtn_XPATH
-INFO    2024-12-29 17:27:08,157 [main] baseTest.BaseTest  - Chrome browser has been launched
-INFO    2024-12-29 17:27:08,298 [main] baseTest.BaseTest  - Browser is maximized
-INFO    2024-12-29 17:27:10,019 [main] baseTest.BaseTest  - Entered value into fields with keyword as: emailTxtbox_ID with value as: username2
-INFO    2024-12-29 17:27:10,234 [main] baseTest.BaseTest  - Entered value into fields with keyword as: passwordTxtbox_NAME with value as: password2
-INFO    2024-12-29 17:27:10,393 [main] baseTest.BaseTest  - Clicked on button with keyword as : loginBtn_XPATH
-INFO    2024-12-29 17:27:12,209 [main] baseTest.BaseTest  - Chrome browser has been launched
-INFO    2024-12-29 17:27:12,387 [main] baseTest.BaseTest  - Browser is maximized
-INFO    2024-12-29 17:27:14,052 [main] baseTest.BaseTest  - Entered value into fields with keyword as: emailTxtbox_ID with value as: username3
-INFO    2024-12-29 17:27:14,303 [main] baseTest.BaseTest  - Entered value into fields with keyword as: passwordTxtbox_NAME with value as: password3
-INFO    2024-12-29 17:27:14,491 [main] baseTest.BaseTest  - Clicked on button with keyword as : loginBtn_XPATH
-INFO    2024-12-29 17:27:17,692 [main] baseTest.BaseTest  - Chrome browser has been launched
-INFO    2024-12-29 17:27:17,859 [main] baseTest.BaseTest  - Browser is maximized
-INFO    2024-12-29 17:27:21,915 [main] baseTest.BaseTest  - Chrome browser has been launched
-INFO    2024-12-29 17:27:22,065 [main] baseTest.BaseTest  - Browser is maximized
+INFO    2024-12-31 15:00:23,818 [main] baseTest.BaseTest  - Test case execution started
+INFO    2024-12-31 15:00:23,820 [main] baseTest.BaseTest  - config properties file has been loaded
+INFO    2024-12-31 15:00:23,820 [main] baseTest.BaseTest  - or properties file has been loaded
+INFO    2024-12-31 15:00:26,259 [main] baseTest.BaseTest  - Chrome browser has been launched
+INFO    2024-12-31 15:00:26,377 [main] baseTest.BaseTest  - Browser is maximized
+INFO    2024-12-31 15:00:28,102 [main] baseTest.BaseTest  - Clicked on button with keyword as : bankMngrLogin_XPATH
+INFO    2024-12-31 15:00:28,388 [main] baseTest.BaseTest  - Element is present with the keyword as: addCstmr_XPATH
+INFO    2024-12-31 15:00:28,818 [main] baseTest.BaseTest  - Clicked on button with keyword as : addCstmr_XPATH
+INFO    2024-12-31 15:00:29,239 [main] baseTest.BaseTest  - Entered value into fields with keyword as: firstName_XPATH with value as: Jaasritha
+INFO    2024-12-31 15:00:29,331 [main] baseTest.BaseTest  - Entered value into fields with keyword as: lastName_XPATH with value as: G
+INFO    2024-12-31 15:00:29,467 [main] baseTest.BaseTest  - Entered value into fields with keyword as: postalCode_XPATH with value as: 50032.0
+INFO    2024-12-31 15:00:29,589 [main] baseTest.BaseTest  - Clicked on button with keyword as : addCustomerBtn_XPATH
+INFO    2024-12-31 15:00:29,768 [main] baseTest.BaseTest  - Clicked on button with keyword as : addCstmr_XPATH
+INFO    2024-12-31 15:00:29,979 [main] baseTest.BaseTest  - Entered value into fields with keyword as: firstName_XPATH with value as: Saranya
+INFO    2024-12-31 15:00:30,139 [main] baseTest.BaseTest  - Entered value into fields with keyword as: lastName_XPATH with value as: H
+INFO    2024-12-31 15:00:30,376 [main] baseTest.BaseTest  - Entered value into fields with keyword as: postalCode_XPATH with value as: 6789000.0
+INFO    2024-12-31 15:00:30,514 [main] baseTest.BaseTest  - Clicked on button with keyword as : addCustomerBtn_XPATH
+INFO    2024-12-31 15:00:30,678 [main] baseTest.BaseTest  - Clicked on button with keyword as : addCstmr_XPATH
+INFO    2024-12-31 15:00:30,819 [main] baseTest.BaseTest  - Entered value into fields with keyword as: firstName_XPATH with value as: Raj
+INFO    2024-12-31 15:00:30,979 [main] baseTest.BaseTest  - Entered value into fields with keyword as: lastName_XPATH with value as: B
+INFO    2024-12-31 15:00:31,293 [main] baseTest.BaseTest  - Entered value into fields with keyword as: postalCode_XPATH with value as: 78999.0
+INFO    2024-12-31 15:00:31,436 [main] baseTest.BaseTest  - Clicked on button with keyword as : addCustomerBtn_XPATH
+INFO    2024-12-31 15:00:31,836 [main] baseTest.BaseTest  - Clicked on button with keyword as : openAccountBtn_XPATH
+INFO    2024-12-31 15:00:32,284 [main] baseTest.BaseTest  - Select the value from drop down with keyword as : customerName_ID and value as: Jaasritha G
+INFO    2024-12-31 15:00:32,494 [main] baseTest.BaseTest  - Select the value from drop down with keyword as : currency_ID and value as: Dollar
+INFO    2024-12-31 15:00:32,712 [main] baseTest.BaseTest  - Clicked on button with keyword as : processBtn_XPATH
+INFO    2024-12-31 15:00:33,070 [main] baseTest.BaseTest  - Clicked on button with keyword as : openAccountBtn_XPATH
+INFO    2024-12-31 15:00:33,378 [main] baseTest.BaseTest  - Select the value from drop down with keyword as : customerName_ID and value as: Saranya H
+INFO    2024-12-31 15:00:33,603 [main] baseTest.BaseTest  - Select the value from drop down with keyword as : currency_ID and value as: Rupee
+INFO    2024-12-31 15:00:33,753 [main] baseTest.BaseTest  - Clicked on button with keyword as : processBtn_XPATH
+INFO    2024-12-31 15:00:33,928 [main] baseTest.BaseTest  - Clicked on button with keyword as : openAccountBtn_XPATH
+INFO    2024-12-31 15:00:34,084 [main] baseTest.BaseTest  - Select the value from drop down with keyword as : customerName_ID and value as: Raj B
+INFO    2024-12-31 15:00:34,224 [main] baseTest.BaseTest  - Select the value from drop down with keyword as : currency_ID and value as: Pound
+INFO    2024-12-31 15:00:34,339 [main] baseTest.BaseTest  - Clicked on button with keyword as : processBtn_XPATH

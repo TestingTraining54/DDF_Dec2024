@@ -6,7 +6,28 @@
 		<listener class-name="extentlisteners.ExtentListeners"></listener>
 
 	</listeners>
-	<test name="Fb Login Test">
+	
+	<test name="Bank Manager Login Test">
+		<classes>
+
+			<class name="testcases.BankManagerLoginTest" />
+		</classes>
+	</test>
+	
+	<test name="Add Customer Test">
+		<classes>
+
+			<class name="testcases.AddCustomer" />
+		</classes>
+	</test>
+	
+	<test name="Open Account Test">
+		<classes>
+
+			<class name="testcases.OpenAccountTest" />
+		</classes>
+	</test>
+	<!-- <test name="Fb Login Test">
 		<classes>
 
 			<class name="testcases.LoginFacebook" />
@@ -18,7 +39,7 @@
 
 			<class name="testcases.UserRegistractionTest" />
 		</classes>
-	</test>
+	</test> -->
 
 
 </suite> <!-- First Suite -->
